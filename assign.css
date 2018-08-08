@@ -1,0 +1,73 @@
+body{
+
+	background-color: Black;
+}
+
+.homeContent {
+    
+    position: relative;
+    top: 100px;
+    left: 300px;
+	color: White;
+	font-size: 50px;
+	
+}
+
+.contactContent {
+
+    position: relative;
+	top: 100px;
+	left: 300px;
+	color: White;
+	font-size: 35px;
+}
+
+.aboutContent {
+
+    position: relative;
+	top: 100px;
+	color: White;
+	font-size: 35px;
+	left: 300px;
+
+}
+.zoom {
+	color: White;
+	font-size: 35px;
+	text-align: center;
+}
+
+.links div {
+
+    letter-spacing: 2px;
+	display: inline;
+	font-size: 20px;
+	margin: 4px;
+}
+
+.photos {
+   
+    position: relative;
+	font: 0;
+	width: 100%px;
+	float: left;
+	left: 10px;
+}
+
+.photos img {
+	display: inline-grid;
+	position: relative;
+	width:  220px;
+	height: 200px;
+	margin: 5px;
+	top: 10px;
+	left: 10px;
+	border: 2px solid White;
+
+}
+
+.hi {
+
+	position: relative;
+	left: 200px;
+}
