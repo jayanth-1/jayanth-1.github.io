@@ -1,6 +1,5 @@
 body{
 
-	background-color: Black;
 }
 
 .homeContent {
@@ -9,12 +8,32 @@ body{
     top: 100px;
     left: 300px;
 	color: White;
-	font-size: 50px;
+	
 	
 }
 
+ .homeContent p {
+    font-style: italic;
+    font-size: 50px;
+    color: Green;
+}
 
+.loc {
+    position: relative;
+    font-style: italic;
+    font-size: 50px;
+    color: Green;
+    right: 30px;
+}
 
+/*.homeContent img {
+    position: relative;
+    display: inline-grid;
+    top: 10px;
+    left: 10px;
+    width:  220px;
+    height: 200px;
+} */
 .contactContent {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -52,16 +71,32 @@ body{
 
 .aboutContent {
 
-    position: relative;
+    /*position: relative;
 	top: 100px;
 	color: White;
 	font-size: 35px;
-	left: 300px;
+	left: 300px;*/
+    color: Black;
 
+}
+
+.name{
+    text-align: center;
+}
+.aboutContent h1 {
+    position: relative;
+    color: Gray;
+    left: 10px;
+
+}
+
+.aboutContent p,li {
+    font-style: italic;
+    font-size: 20px;
 }
 .zoom {
 	color: White;
-	font-size: 35px;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -108,7 +143,98 @@ body{
     text-decoration: none;
     font-size: 17px;
 }
+* {
+	box-sizing: border-box;
+}
 
+html, body {
+    padding:0;
+    margin:0;
+}
+
+body {
+	color: #2c3e50;
+	font-size: 1em;
+	font-family: 'Source Serif Pro', 'Helvetica Neue', serif;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	color: #2c3e50;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	padding: 1.5em 0;
+	background-image: url('https://dl.dropboxusercontent.com/u/18570019/header-image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer,
+.header-intro,
+.header-name {
+	text-align: center;
+}
+
+.header-intro {
+	margin-bottom: 0em;
+	color: #e67e22;
+	font-size: 2.25em;
+	text-shadow: 0px 1px 0px #d35400;
+}
+
+.header-name {
+	margin-top: 0.2em;
+	color: #e67e22;
+	font-size: 6.0em;
+	text-shadow: 0px 3px 0px #d35400;
+	font-weight: 700;
+}
+
+.about,
+.questions {
+	max-width: 37.5em;
+	margin: 0 auto;
+	margin-top: 2em;
+	line-height: 1.5em;
+}
+
+.questions h3 {
+	color: #e67e22;
+}
+
+.footer {
+	padding: 4em 0;
+	color: #fff;
+	background: #e67e22;
+	margin-top: 3em;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.social {
+	text-align: center;
+  margin-left: -2em;
+}
+
+.social > li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 1.0em;
+}
 
 .links a:hover {
     background-color: #ddd;
@@ -117,5 +243,11 @@ body{
 
 .links a.active {
     background-color: #4CAF50;
-    color: white;
+    color: White;
+}
+
+.displa img {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
