@@ -1,6 +1,3 @@
-body{
-
-}
 
 .homeContent {
     
@@ -26,14 +23,7 @@ body{
     right: 30px;
 }
 
-/*.homeContent img {
-    position: relative;
-    display: inline-grid;
-    top: 10px;
-    left: 10px;
-    width:  220px;
-    height: 200px;
-} */
+
 .contactContent {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -70,12 +60,7 @@ body{
 }
 
 .aboutContent {
-
-    /*position: relative;
-	top: 100px;
-	color: White;
-	font-size: 35px;
-	left: 300px;*/
+	
     color: Black;
 
 }
